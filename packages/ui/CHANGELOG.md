@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.7](https://github.com/freax-io/freax/compare/ui-v1.1.6...ui-v1.1.7) (2025-10-07)
+
+
+### Bug Fixes
+
+* add @freax/tsconfig dependency ([88e4552](https://github.com/freax-io/freax/commit/88e4552c69cfd2945ef5eb804920b3385270e665))
+
 ## [1.1.6](https://github.com/freax-io/freax/compare/ui-v1.1.5...ui-v1.1.6) (2025-10-07)
 
 
