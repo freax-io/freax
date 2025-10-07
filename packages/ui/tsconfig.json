@@ -2,7 +2,7 @@
 	"compilerOptions": {
 		"noEmit": false,
 		"outDir": "./dist",
-		"rootDir": "src", // <-- added so we don't get src/
+		"rootDir": "src",
 		"tsBuildInfoFile": "dist/tsconfig.tsbuildinfo"
 	},
 	"extends": [
