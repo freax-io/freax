@@ -34,7 +34,7 @@
 		"lint": "oxlint"
 	},
 	"type": "module",
-	"version": "1.6.3",
+	"version": "1.6.4",
 	"workspaces": [
 		"apps/*",
 		"config/*",
