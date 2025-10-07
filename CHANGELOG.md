@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.0](https://github.com/freax-io/freax/compare/freax-v1.4.0...freax-v1.5.0) (2025-10-07)
+
+
+### Features
+
+* fixing NPM publish ([fcdbeec](https://github.com/freax-io/freax/commit/fcdbeec5b4d69bf369bd9cb7cb38175922c9a9db))
+
 ## [1.4.0](https://github.com/freax-io/freax/compare/freax-v1.3.0...freax-v1.4.0) (2025-10-07)
 
 
