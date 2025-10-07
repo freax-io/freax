@@ -1,7 +1,7 @@
 {
-	".": "1.6.4",
-	"apps/website": "1.0.9",
+	".": "1.6.5",
+	"apps/website": "1.0.10",
 	"config/tsconfig": "1.0.2",
 	"packages/core": "1.4.2",
-	"packages/ui": "1.1.8"
+	"packages/ui": "1.1.9"
 }

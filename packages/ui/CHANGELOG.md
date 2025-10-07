@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.9](https://github.com/freax-io/freax/compare/ui-v1.1.8...ui-v1.1.9) (2025-10-07)
+
+
+### Bug Fixes
+
+* testing NPM publish ([3a22cef](https://github.com/freax-io/freax/commit/3a22cef76c867074e68fb5cc5e1da5a0851137e5))
+
 ## [1.1.8](https://github.com/freax-io/freax/compare/ui-v1.1.7...ui-v1.1.8) (2025-10-07)
 
 
