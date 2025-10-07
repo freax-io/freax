@@ -4,6 +4,9 @@
 		"@freax/core": "^1.4.1"
 	},
 	"description": "",
+	"devDependencies": {
+		"@freax/tsconfig": "^1.0.1"
+	},
 	"exports": {
 		"./button": {
 			"default": "./dist/button.js",
