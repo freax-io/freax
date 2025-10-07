@@ -1,6 +1,6 @@
 {
 	"author": "Martin Rossil (martinrossil@gmail.com)",
-	"description": "",
+	"description": "The base tsconfig extended by other packages",
 	"files": [
 		"./base.json"
 	],
