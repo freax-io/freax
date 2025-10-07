@@ -1,10 +1,15 @@
 {
-	"extends": ["@freax/tsconfig/base.json"],
 	"compilerOptions": {
-		"outDir": "./dist",
-		"noEmit": false,
 		"emitDeclarationOnly": true,
+		"noEmit": false,
+		"outDir": "./dist",
 		"tsBuildInfoFile": "dist/tsconfig.tsbuildinfo"
 	},
-	"include": ["vite.config.ts", "src/**/*"]
+	"extends": [
+		"@freax/tsconfig/base.json"
+	],
+	"include": [
+		"vite.config.ts",
+		"src/**/*"
+	]
 }

@@ -1,12 +1,26 @@
 {
 	"$schema": "https://json.schemastore.org/tsconfig",
-	"display": "Strictest",
 	"compilerOptions": {
-		"strict": true,
-		"strictNullChecks": true,
-		"allowUnusedLabels": false,
+		"allowJs": true,
+		"allowSyntheticDefaultImports": true,
 		"allowUnreachableCode": false,
+		"allowUnusedLabels": false,
+		"baseUrl": "${configDir}",
+		"checkJs": true,
+		"composite": true,
+		"declaration": true,
+		"declarationMap": true,
+		"esModuleInterop": true,
 		"exactOptionalPropertyTypes": true,
+		"forceConsistentCasingInFileNames": true,
+		"incremental": true,
+		"inlineSourceMap": true,
+		"isolatedModules": true,
+		"module": "esnext",
+		"moduleDetection": "force",
+		"moduleResolution": "bundler",
+		"noEmit": true,
+		"noEmitOnError": true,
 		"noFallthroughCasesInSwitch": true,
 		"noImplicitOverride": true,
 		"noImplicitReturns": true,
@@ -14,34 +28,14 @@
 		"noUncheckedIndexedAccess": true,
 		"noUnusedLocals": true,
 		"noUnusedParameters": true,
-		"allowSyntheticDefaultImports": true,
-
-		"isolatedModules": true,
-
-		"allowJs": true,
-		"checkJs": true,
-
-		"esModuleInterop": true,
-		"skipLibCheck": true,
-		"forceConsistentCasingInFileNames": true,
-
-		"module": "esnext",
-		"target": "esnext",
-		"moduleResolution": "bundler",
-		"moduleDetection": "force",
-		"resolveJsonModule": true,
-		"noEmit": true,
-		"incremental": true,
-
-		"declaration": true,
-		"declarationMap": true,
-		"inlineSourceMap": true,
-		"pretty": true,
 		"preserveWatchOutput": true,
-
-		"tsBuildInfoFile": "${configDir}/tsconfig.tsbuildinfo",
-		"baseUrl": "${configDir}",
-		"composite": true,
-		"noEmitOnError": true
-	}
+		"pretty": true,
+		"resolveJsonModule": true,
+		"skipLibCheck": true,
+		"strict": true,
+		"strictNullChecks": true,
+		"target": "esnext",
+		"tsBuildInfoFile": "${configDir}/tsconfig.tsbuildinfo"
+	},
+	"display": "Strictest"
 }

@@ -1,22 +1,22 @@
 {
-	"name": "@freax/website",
-	"version": "1.0.0",
+	"author": "",
+	"dependencies": {
+		"@freax/ui": "^1.0.0"
+	},
 	"description": "",
-	"main": "index.js",
 	"devDependencies": {
 		"@freax/tsconfig": "^1.0.0",
 		"vite": "^7.1.7"
 	},
+	"keywords": [],
+	"license": "MIT",
+	"main": "index.js",
+	"name": "@freax/website",
 	"scripts": {
 		"build": "vite build",
 		"dev": "vite",
 		"preview": "vite preview"
 	},
-	"keywords": [],
-	"author": "",
-	"license": "MIT",
 	"type": "module",
-	"dependencies": {
-		"@freax/ui": "^1.0.0"
-	}
+	"version": "1.0.0"
 }

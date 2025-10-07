@@ -1,22 +1,22 @@
 {
-	"name": "@freax/ui",
-	"version": "1.0.0",
-	"description": "",
-	"scripts": {
-		"build": "tsc",
-    	"dev": "tsc --watch"
-	},
 	"author": "Martin Rossil (martinrossil@gmail.com)",
-	"license": "MIT",
-	"type": "module",
 	"dependencies": {
 		"@freax/core": "^1.0.0"
 	},
+	"description": "",
 	"exports": {
 		"./button": {
-			"types": "./dist/button.d.ts",
-      		"default": "./dist/button.js"
+			"default": "./dist/button.js",
+			"types": "./dist/button.d.ts"
 		}
 	},
-	"private": false
+	"license": "MIT",
+	"name": "@freax/ui",
+	"private": false,
+	"scripts": {
+		"build": "tsc",
+		"dev": "tsc --watch"
+	},
+	"type": "module",
+	"version": "1.0.0"
 }

@@ -1,10 +1,12 @@
 {
-  "name": "@freax/tsconfig",
-  "version": "1.0.0",
-  "description": "",
-  "author": "Martin Rossil (martinrossil@gmail.com)",
-  "license": "MIT",
-  "type": "module",
-  "files": ["./base.json"],
-  "private": false
+	"author": "Martin Rossil (martinrossil@gmail.com)",
+	"description": "",
+	"files": [
+		"./base.json"
+	],
+	"license": "MIT",
+	"name": "@freax/tsconfig",
+	"private": false,
+	"type": "module",
+	"version": "1.0.0"
 }

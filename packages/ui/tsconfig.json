@@ -1,10 +1,14 @@
 {
-	"extends": ["@freax/tsconfig/base.json"],
 	"compilerOptions": {
-		"rootDir": "src", // <-- added so we don't get src/
-		"outDir": "./dist",
 		"noEmit": false,
+		"outDir": "./dist",
+		"rootDir": "src", // <-- added so we don't get src/
 		"tsBuildInfoFile": "dist/tsconfig.tsbuildinfo"
 	},
-	"include": ["src/**/*"]
+	"extends": [
+		"@freax/tsconfig/base.json"
+	],
+	"include": [
+		"src/**/*"
+	]
 }
