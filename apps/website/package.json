@@ -1,7 +1,7 @@
 {
 	"author": "",
 	"dependencies": {
-		"@freax/ui": "^1.1.2"
+		"@freax/ui": "^1.1.3"
 	},
 	"description": "",
 	"devDependencies": {
@@ -18,5 +18,5 @@
 		"preview": "vite preview"
 	},
 	"type": "module",
-	"version": "1.0.3"
+	"version": "1.0.4"
 }
