@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.1.4](https://github.com/freax-io/freax/compare/ui-v1.1.3...ui-v1.1.4) (2025-10-07)
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @freax/core bumped from ^1.3.0 to ^1.4.0
+
 ## [1.1.3](https://github.com/freax-io/freax/compare/ui-v1.1.2...ui-v1.1.3) (2025-10-07)
 
 

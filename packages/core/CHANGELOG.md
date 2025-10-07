@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.0](https://github.com/freax-io/freax/compare/core-v1.3.0...core-v1.4.0) (2025-10-07)
+
+
+### Features
+
+* fixing NPM publish ([b5bd96d](https://github.com/freax-io/freax/commit/b5bd96dd3b6554b872b09e3478e6080d4c0bb721))
+
 ## [1.3.0](https://github.com/freax-io/freax/compare/core-v1.2.0...core-v1.3.0) (2025-10-07)
 
 
