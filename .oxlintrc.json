@@ -10,48 +10,22 @@
 		"suspicious": "error"
 	},
 	"globals": {
-		"alert": "readonly",
-		"beforeEach": "readonly",
-		"Blob": "readonly",
-		"btoa": "readonly",
-		"clearInterval": "readonly",
-		"clearTimeout": "readonly",
-		"ClipboardEvent": "readonly",
 		"console": "readonly",
 		"customElements": "readonly",
-		"describe": "readonly",
-		"document": "readonly",
-		"ErrorEvent": "readonly",
-		"Event": "readonly",
-		"expect": "readonly",
-		"File": "readonly",
-		"FileReader": "readonly",
-		"FormData": "readonly",
-		"HTMLElement": "readonly",
-		"HTMLInputElement": "readonly",
-		"Image": "readonly",
-		"it": "readonly",
-		"localStorage": "readonly",
-		"location": "readonly",
-		"Node": "readonly",
-		"process": "readonly",
-		"requestAnimationFrame": "readonly",
-		"ResizeObserver": "readonly",
-		"screen": "readonly",
-		"sessionStorage": "readonly",
-		"setInterval": "readonly",
-		"setTimeout": "readonly",
-		"structuredClone": "readonly",
-		"SVGPathElement": "readonly",
-		"SVGSVGElement": "readonly",
-		"TextEncoder": "readonly",
-		"URL": "readonly",
-		"URLSearchParams": "readonly",
-		"window": "readonly",
-		"xdescribe": "readonly",
-		"XMLHttpRequest": "readonly"
+		"HTMLElement": "readonly"
 	},
+	"ignorePatterns": [
+		"dist/",
+		"node_modules/"
+	],
+	"plugins": [
+		"nextjs",
+		"typescript",
+		"unicorn",
+		"oxc"
+	],
 	"rules": {
+		"no-console": "warn",
 		"no-null": "off"
 	}
 }
