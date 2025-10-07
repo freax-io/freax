@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.0.2](https://github.com/freax-io/freax/compare/website-v1.0.1...website-v1.0.2) (2025-10-07)
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @freax/ui bumped from ^1.1.0 to ^1.1.1
+
 ## [1.0.1](https://github.com/freax-io/freax/compare/website-v1.0.0...website-v1.0.1) (2025-10-07)
 
 
