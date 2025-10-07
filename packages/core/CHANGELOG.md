@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.4.2](https://github.com/freax-io/freax/compare/core-v1.4.1...core-v1.4.2) (2025-10-07)
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @freax/tsconfig bumped from ^1.0.1 to ^1.0.2
+
 ## [1.4.1](https://github.com/freax-io/freax/compare/core-v1.4.0...core-v1.4.1) (2025-10-07)
 
 
