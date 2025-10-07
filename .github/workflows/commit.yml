@@ -86,10 +86,8 @@ jobs:
       - name: Build @freax/core
         run: npm run build:core
 
-      - name: Authenticate with NPM registry
-        run: echo "//registry.npmjs.org/:_authToken=${{ secrets.FREAX_NPM_PUBLISH_CLASSIC_TOKEN }}" > ~/.npmrc
-
-      - name: Publish @freax/core package
-        run: npm publish --access public
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.FREAX_NPM_PUBLISH_CLASSIC_TOKEN }}
+      - uses: JS-DevTools/npm-publish@v3
+        with:
+          token: ${{ secrets.FREAX_NPM_PUBLISH_CLASSIC_TOKEN  }}
+          package: packages/core
+          access: public
