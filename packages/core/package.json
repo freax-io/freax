@@ -1,0 +1,19 @@
+{
+	"name": "@freax/core",
+	"version": "1.0.0",
+	"description": "",
+	"scripts": {
+		"build": "tsc",
+    	"dev": "tsc --watch"
+	},
+	"author": "Martin Rossil (martinrossil@gmail.com)",
+	"license": "MIT",
+	"type": "module",
+	"exports": {
+		"./component": {
+			"types": "./dist/component.d.ts",
+      		"default": "./dist/component.js"
+		}
+	},
+	"private": false
+}
