@@ -22,7 +22,12 @@
 		"nextjs",
 		"typescript",
 		"unicorn",
-		"oxc"
+		"oxc",
+		"jsdoc",
+		"node",
+		"promise",
+		"regex",
+		"vitest"
 	],
 	"rules": {
 		"no-console": "warn",
