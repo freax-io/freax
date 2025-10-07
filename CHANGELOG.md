@@ -1,5 +1,23 @@
 # Changelog
 
+## [1.6.1](https://github.com/freax-io/freax/compare/freax-v1.6.0...freax-v1.6.1) (2025-10-07)
+
+
+### Build System
+
+* move tsbuildinfo outside dist ([adfa20b](https://github.com/freax-io/freax/commit/adfa20bd3d86f1b279e6dac083ba1d18cbe5302f))
+
+
+### Miscellaneous Chores
+
+* add @freax/tsconfig dependency ([f77e373](https://github.com/freax-io/freax/commit/f77e373e523dff65b3a4db85f1049bc6c52ca2f3))
+* update .gitignore ([2b8fcb3](https://github.com/freax-io/freax/commit/2b8fcb312799a53a802bd1764ff1365539518793))
+
+
+### Bug Fixes
+
+* add @freax/tsconfig NPM publish step ([93c4540](https://github.com/freax-io/freax/commit/93c45402a00264bc436ddeb2a21bbf0147e62e9f))
+
 ## [1.6.0](https://github.com/freax-io/freax/compare/freax-v1.5.0...freax-v1.6.0) (2025-10-07)
 
 
