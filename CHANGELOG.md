@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.6.2](https://github.com/freax-io/freax/compare/freax-v1.6.1...freax-v1.6.2) (2025-10-07)
+
+
+### Bug Fixes
+
+* add description and test NPM publication ([da5676d](https://github.com/freax-io/freax/commit/da5676d9df0643f91b6c94c0a85b1f137ca699f6))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * devDependencies
+    * @freax/tsconfig bumped from ^1.0.1 to ^1.0.2
+
 ## [1.6.1](https://github.com/freax-io/freax/compare/freax-v1.6.0...freax-v1.6.1) (2025-10-07)
 
 

@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.2](https://github.com/freax-io/freax/compare/tsconfig-v1.0.1...tsconfig-v1.0.2) (2025-10-07)
+
+
+### Bug Fixes
+
+* add description and test NPM publication ([da5676d](https://github.com/freax-io/freax/commit/da5676d9df0643f91b6c94c0a85b1f137ca699f6))
+
 ## [1.0.1](https://github.com/freax-io/freax/compare/tsconfig-v1.0.0...tsconfig-v1.0.1) (2025-10-07)
 
 

@@ -1,11 +1,11 @@
 {
 	"author": "",
 	"dependencies": {
-		"@freax/ui": "^1.1.5"
+		"@freax/ui": "^1.1.6"
 	},
 	"description": "",
 	"devDependencies": {
-		"@freax/tsconfig": "^1.0.1",
+		"@freax/tsconfig": "^1.0.2",
 		"vite": "^7.1.7"
 	},
 	"keywords": [],
@@ -18,5 +18,5 @@
 		"preview": "vite preview"
 	},
 	"type": "module",
-	"version": "1.0.6"
+	"version": "1.0.7"
 }
