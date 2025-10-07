@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.4](https://github.com/freax-io/freax/compare/freax-v1.6.3...freax-v1.6.4) (2025-10-07)
+
+
+### Bug Fixes
+
+* update @freax/tsconfig dependency ([133fb36](https://github.com/freax-io/freax/commit/133fb36f2719a173b0fd9014910cce5f075c078c))
+
 ## [1.6.3](https://github.com/freax-io/freax/compare/freax-v1.6.2...freax-v1.6.3) (2025-10-07)
 
 
