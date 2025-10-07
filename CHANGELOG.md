@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.6.5](https://github.com/freax-io/freax/compare/freax-v1.6.4...freax-v1.6.5) (2025-10-07)
+
+
+### Continuous Integration
+
+* add @freax/ui NPM piblish to workflow ([e8889b9](https://github.com/freax-io/freax/commit/e8889b9f8247e49ae4358fd13ad59d30d450c4d2))
+
+
+### Bug Fixes
+
+* testing NPM publish ([3a22cef](https://github.com/freax-io/freax/commit/3a22cef76c867074e68fb5cc5e1da5a0851137e5))
+
 ## [1.6.4](https://github.com/freax-io/freax/compare/freax-v1.6.3...freax-v1.6.4) (2025-10-07)
 
 
