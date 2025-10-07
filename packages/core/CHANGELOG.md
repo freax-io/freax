@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.4.1](https://github.com/freax-io/freax/compare/core-v1.4.0...core-v1.4.1) (2025-10-07)
+
+
+### Build System
+
+* move tsbuildinfo outside dist ([adfa20b](https://github.com/freax-io/freax/commit/adfa20bd3d86f1b279e6dac083ba1d18cbe5302f))
+
+
+### Miscellaneous Chores
+
+* add @freax/tsconfig dependency ([f77e373](https://github.com/freax-io/freax/commit/f77e373e523dff65b3a4db85f1049bc6c52ca2f3))
+
 ## [1.4.0](https://github.com/freax-io/freax/compare/core-v1.3.0...core-v1.4.0) (2025-10-07)
 
 
