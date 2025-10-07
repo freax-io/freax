@@ -1,41 +1,43 @@
 {
-	"name": "freax",
-	"version": "1.0.0",
-	"description": "A Figma compatible UI framework build with native Web Components.",
-	"scripts": {
-		"build": "run-s build:packages build:website",
-		"build:core": "npm run build -w packages/core",
-		"build:ui": "npm run build -w packages/ui",
-		"build:packages": "run-s build:core build:ui",
-		"build:website": "npm run build -w apps/website",
-		"dev": "run-s build:packages dev:all",
-		"dev:core": "npm run dev -w packages/core",
-		"dev:ui": "npm run dev -w packages/ui",
-		"dev:packages": "run-p dev:core dev:ui",
-		"dev:website": "npm run dev -w apps/website",
-		"dev:all": "run-p dev:packages dev:website"
+	"author": "Martin Rossil (martinrossil@gmail.com)",
+	"bugs": {
+		"url": "https://github.com/freax-io/freax/issues"
 	},
+	"description": "A Figma compatible UI framework build with native Web Components.",
+	"devDependencies": {
+		"@freax/tsconfig": "^1.0.0",
+		"npm-run-all": "^4.1.5",
+		"oxlint": "^1.20.0",
+		"typescript": "^5.9.2"
+	},
+	"homepage": "https://github.com/freax-io/freax#readme",
+	"keywords": [],
+	"license": "MIT",
+	"name": "freax",
+	"private": false,
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/freax-io/freax.git"
 	},
-	"keywords": [],
-	"author": "Martin Rossil (martinrossil@gmail.com)",
-	"license": "MIT",
-	"private": false,
-	"type": "module",
-	"bugs": {
-		"url": "https://github.com/freax-io/freax/issues"
+	"scripts": {
+		"build": "run-s build:packages build:website",
+		"build:core": "npm run build -w packages/core",
+		"build:packages": "run-s build:core build:ui",
+		"build:ui": "npm run build -w packages/ui",
+		"build:website": "npm run build -w apps/website",
+		"dev": "run-s build:packages dev:all",
+		"dev:all": "run-p dev:packages dev:website",
+		"dev:core": "npm run dev -w packages/core",
+		"dev:packages": "run-p dev:core dev:ui",
+		"dev:ui": "npm run dev -w packages/ui",
+		"dev:website": "npm run dev -w apps/website",
+		"lint": "oxlint"
 	},
-	"homepage": "https://github.com/freax-io/freax#readme",
+	"type": "module",
+	"version": "1.0.0",
 	"workspaces": [
 		"apps/*",
 		"config/*",
 		"packages/*"
-	],
-	"devDependencies": {
-		"@freax/tsconfig": "^1.0.0",
-		"npm-run-all": "^4.1.5",
-		"typescript": "^5.9.2"
-	}
+	]
 }
